@@ -7,7 +7,7 @@ public class EmpWage {
 		System.out.println("Welcome to Employee Wage");
 		int employeePresent = 1;
 		int wagePerHour = 120;
-		int numberOfHours = 8;
+		int numberOfHours = 4;
 		int isPresent = (int) (Math.floor(Math.random() * 10) % 2);
 		if (isPresent == employeePresent) {
 			System.out.println("Employee is Present");
