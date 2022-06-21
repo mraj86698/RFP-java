@@ -11,7 +11,7 @@ public class EmpWage {
 		int isPresent = (int) (Math.floor(Math.random() * 10) % 2);
 		if (isPresent == employeePresent) {
 			System.out.println("Employee is Present");
-			System.out.println("Employee earn =" + numberOfHours + wagePerHour);
+			System.out.println("Employee earn =" + numberOfHours * wagePerHour);
 		} else {
 			System.out.println("Employee is not Present");
 			System.out.println("Employee Earn = 0");
